@@ -12,4 +12,4 @@
 for s in ["разработка","администрирование","protocol","standard"]:
     p=s.encode("utf-8","replace")
     q=p.decode("utf-8")
-    print(s,p,q)
+    print(s,p,q) 

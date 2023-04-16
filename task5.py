@@ -11,10 +11,10 @@
 import subprocess
 import chardet
 
-websites = ['yandex.ru', 'youtube.com']
+websites = ['yandex.ru',  'youtube.com']
 
 for website in websites:
-    ping_result = subprocess.check_output(['ping', website])
+    ping_result = subprocess.check_output(['ping',  website])
     encoding = chardet.detect(ping_result)['encoding']
     ping_result_str = ping_result.decode(encoding)
     print(ping_result_str)
