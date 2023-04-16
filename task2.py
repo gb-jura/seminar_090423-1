@@ -13,4 +13,4 @@
 words = [b'class', b'function', b'method']
 
 for word in words:
-    print(f"тип - {type(word)}, содержимое - {word}, длина - {len(word)}")
+    print(f"тип - {type(word)}, содержимое - {word}, длина -{len(word)}")
